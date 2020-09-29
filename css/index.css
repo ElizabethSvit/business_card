@@ -3,7 +3,7 @@ html, body {
     height:100%;
 }
 .container {
-    background-color: #00506C;
+    background-color: #F6FCFF;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
