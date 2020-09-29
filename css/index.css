@@ -94,7 +94,8 @@ html, body {
 }
 
 .card__inner-container_header-back {
-    font-size: 22px;
+    margin: 10px 0 0;
+    font-size: 24px;
 }
 
 .card__inner-container_contents-back {
@@ -109,7 +110,7 @@ html, body {
 }
 
 .card__footer-info_text {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .card__footer-info_small-text {
@@ -119,7 +120,7 @@ html, body {
 
     display: flex;
     justify-content: flex-end;
-    width: 85%;
+    width: 88%;
 }
 
 .card__footer-info_bottom {
@@ -130,9 +131,10 @@ html, body {
 }
 
 .card__social-icons_item {
-    margin-left: 4px;
     width: 36px;
     height: 36px;
+    margin: 0;
+    padding: 0;
 }
 
 .card__social-icons_item:hover {
@@ -148,11 +150,16 @@ p {
     margin-bottom: 0;
 }
 
-hr {
-    border-top: 0.5px solid black;
-    width: 50px;
-    margin: 0;
+.card__footer-info_icons {
+    display: flex;
 }
+
+.card__footer-info_icons a {
+    display: flex;
+    padding: 0;
+    margin-left: 4px;
+}
+
 
 @media screen and (max-width: 992px) {
     .full-card {
@@ -170,11 +177,11 @@ hr {
     }
 
     .card__inner-container_header-back {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     .card__inner-container_contents-back {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .card__inner-container {
@@ -183,11 +190,8 @@ hr {
         align-items: center;
     }
 
-    hr {
-        width: 70px;
-    }
-
     .card__inner-container {
+        padding-top: 60px;
         justify-content: center;
         text-align: center;
     }
