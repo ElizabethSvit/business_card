@@ -6,7 +6,6 @@
     position: absolute;
 
     background-color: #F6FCFF;
-    /*min-height: 100vh;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,8 +171,8 @@ p {
 
 @media screen and (max-width: 992px) {
     .full-card {
-        height: 900px;
-        width: 60%;
+        height: 60%;
+        width: 80%;
     }
 
     .card__face-back {
@@ -186,11 +185,11 @@ p {
     }
 
     .card__inner-container_header-back {
-        font-size: 38px;
+        font-size: 44px;
     }
 
     .card__inner-container_contents-back {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .card__inner-container {
@@ -210,7 +209,6 @@ p {
     }
 
     .card__footer-info_bottom {
-        /*padding-top: 300px;*/
         width: auto;
         align-self: center;
     }
@@ -220,9 +218,9 @@ p {
     }
 
     .card__social-icons_item {
-        width: 52px;
-        height: 52px;
-        margin-left: 8px;
+        width: 70px;
+        height: 70px;
+        margin-left: 18px;
         filter: drop-shadow(1px 1px 7px rgba(0, 0, 0, 0.25));
     }
 
@@ -230,12 +228,12 @@ p {
         padding-top: 280px;
         align-self: center;
         width: auto;
-        font-size: 20px;
+        font-size: 26px;
         margin-bottom: 20px;
     }
 
     .card__header-front {
-        font-size: 46px;
+        font-size: 52px;
     }
 
     .full-card.loaded {
